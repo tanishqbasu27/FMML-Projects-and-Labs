@@ -1,0 +1,9 @@
+https://colab.research.google.com/drive/1pCrSSFD_CfYewpCDy56yIzMLHDXg57Gw?usp=sharing#scrollTo=UcsmV9Y3eBf
+
+
+Excercises
+What is the need for hierarchical clustering and its advantages over KMeans?
+What is the advantages of Density Based Clustering over KMeans?
+1) hierarchical clustering is one worth considering as it’s simple and easy to use. It also provides an edge over the k-means algorithm as you do not need to specify the number of clusters to create clusters. Therefore, it is easier to decide on the number of clusters by looking at the dendrogram and it's not sensitive to scale
+
+2) Density Based is not restricted to spherical clusters, is resistant towards noise, can handle outliers and you don’t even have to specify the number of clusters before hand, performs well with arbitrary shaped clusters.
